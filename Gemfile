@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'bootstrap-sass', '~>3.3.1'
+gem 'twitter-bootswatch-rails', '~>3.3.4.0'
+gem 'therubyracer'
+gem 'execjs'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
@@ -39,3 +43,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
+# 日本語URIに対応することができるgem
+gem 'addressable', require: 'addressable/uri'
